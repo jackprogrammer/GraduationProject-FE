@@ -3076,8 +3076,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .about-banner {
-    background: url(../img/top-banner.jpg) right no-repeat;
-    background-size: cover
+    background: url(../img/img-banner.jpg) no-repeat;
+    background-size: 100%;
+    width: 100vw;
+    height: 37.5vw;
+    line-height: 1;
 }
 
 .about-content {
