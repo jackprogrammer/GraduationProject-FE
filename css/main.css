@@ -1,3 +1,8 @@
+.cfl {
+    width: 100%;
+    overflow: hidden;
+}
+
 ::-moz-selection {
     background-color: #f7631b;
     color: #fff
@@ -37,7 +42,7 @@
 
 body {
     color: #777;
-    font-family: "Poppins", sans-serif;
+    font-family: "Segoe UI";
     font-size: 14px;
     font-weight: 300;
     line-height: 1.625em;
@@ -2125,7 +2130,7 @@ h6 {
     }
 
     #header #logo img {
-        max-height: 40px
+        max-height: 22px
     }
 }
 
@@ -2195,8 +2200,8 @@ h6 {
     text-decoration: none;
     display: inline-block;
     color: #fff;
-    font-weight: 500;
-    font-size: 12px;
+    font-weight: 700;
+    font-size: 14px;
     text-transform: uppercase;
     outline: none
 }
@@ -2242,7 +2247,7 @@ h6 {
     position: fixed;
     right: 15px;
     z-index: 999;
-    top: 62px;
+    top: 20px;
     border: 0;
     background: none;
     font-size: 24px;
@@ -2468,12 +2473,16 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .banner-area {
-    background: url(https://cfl.edu.vn/xmedia/2018/05/sinh-vien-1.jpg) right;
-    background-size: cover
+    background: url(../img/img-banner.jpg) no-repeat;
+    background-size: 100%;
+    width: 100vw;
+    height: 37.5vw;
+    line-height: 1;
 }
 
 .banner-area .overlay-bg {
-    background-color:rgba(23, 155, 215, 0.4);
+    /* background-color:rgba(23, 155, 215, 0.4); */
+    background-color: rgba(0, 0, 0, 0);
 }
 
 @media (max-width: 767px) {
@@ -2586,6 +2595,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 
     .single-feature .title {
         background: #f7631b
+    }
+
+    .feature-area {
+        margin-top: 0px;
     }
 }
 
@@ -2848,7 +2861,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .review-area {
-    background: #f9f9ff
+    background: #f9f9ff;
+    padding-top: 80px;
 }
 
 .review-area h4 {
