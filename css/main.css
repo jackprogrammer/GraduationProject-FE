@@ -4840,7 +4840,8 @@ dl.toggle.time-line:before {
 }
 
 .footer-area {
-    background-color: #04091e
+    background-color: #04091e;
+    padding: 50px 0
 }
 
 .single-footer-widget h4 {
@@ -4867,11 +4868,12 @@ dl.toggle.time-line:before {
 }
 
 .single-footer-widget ul li {
-    margin-bottom: 10px
+    margin-bottom: 10px;
+    color: #fff;
 }
 
 .single-footer-widget ul li a {
-    color: #777;
+    color: #fff;
     -webkit-transition: all 0.3s ease 0s;
     -moz-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
