@@ -2710,7 +2710,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .search-course-area .search-course-left p {
-    font-size: 12px
+    font-size: 14px;
+    color: #fff;
 }
 
 @media (max-width: 991px) {
